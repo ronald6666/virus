@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -u
 cd "$(dirname "$(realpath "$0")")"
-: "${BOT_TOKEN:?Defina BOT_TOKEN antes de iniciar. Ex.: export BOT_TOKEN='seu-token-novo'}"
+: "${BOT_TOKEN:?Defina BOT_TOKEN antes de iniciar. Ex.: export BOT_TOKEN='8714126990:AAFy4AsIPaus_xVVg02Oz7ALMd4RBdwBlwY'}"
 
 # Supervisor externo: se o Python morrer por erro, OOM ou falha transitória, reinicia.
 # Ctrl+C encerra o supervisor e o bot de forma limpa.

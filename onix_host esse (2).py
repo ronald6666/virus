@@ -92,7 +92,7 @@ def keep_alive():
 # --- Configuration ---
 # Cole aqui o token NOVO gerado pelo @BotFather.
 # Não use o token antigo que estava no arquivo original, pois ele foi exposto.
-TOKEN = '8714126990:AAFy4AsIPaus_xVVg02Oz7ALMd4RBdwBlwY'
+TOKEN = '8714126990:AAHy7AAwWPop0J4QZjXoravS6iPK0jw4f78'
 
 # Também permite usar BOT_TOKEN por variável de ambiente, se preferir.
 TOKEN = os.environ.get('BOT_TOKEN', '').strip() or TOKEN

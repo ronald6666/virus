@@ -90,14 +90,7 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-# Cole aqui o token NOVO gerado pelo @BotFather.
-# Não use o token antigo que estava no arquivo original, pois ele foi exposto.
 TOKEN = '8714126990:AAFy4AsIPaus_xVVg02Oz7ALMd4RBdwBlwY'
-
-# Também permite usar BOT_TOKEN por variável de ambiente, se preferir.
-TOKEN = os.environ.get('8714126990:AAFy4AsIPaus_xVVg02Oz7ALMd4RBdwBlwY', '').strip() or TOKEN
-if not TOKEN or TOKEN == '8714126990:AAFy4AsIPaus_xVVg02Oz7ALMd4RBdwBlwY':
-    raise RuntimeError('Cole o token novo do @BotFather na variável TOKEN deste arquivo.')
 OWNER_ID = 7365028334
 ADMIN_ID  = 7365028334
 YOUR_USERNAME = '@ElGatodev'

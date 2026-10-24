@@ -74,7 +74,7 @@ def is_port_in_use(port):
         return s.connect_ex(('0.0.0.0', port)) == 0
 
 def run_flask():
-    port = int(os.environ.get("PORT", 8080))
+    port = int(os.environ.get("PORT", 10000))
     while is_port_in_use(port):
         logger.info(f"Porta {port} em uso, tentando a próxima...")
         port += 1
